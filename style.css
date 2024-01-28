@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.nav{
+    max-width: 1500px;
+    height:28px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-left: 140px;
+    padding-right: 150px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.nav:hover{
+   /* color : rgb(223, 0, 0); */
+}
+
+.nav_child{
+color: rgb(219, 211, 211);
+font-size: 11px;
+}
+.nav_child > i{
+    font-size: 17px;
+    margin-top: -4px;
+}
+.navTwo{
+   visibility: hidden;
+}
+
+
+
+@media(max-width : 830px) {
+    .nav_child{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+
+    .navTwo{
+        visibility: visible;
+        max-width: 100%;
+        height:45px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    
+
+    }
+    .nav2Apple{
+        color: rgb(219, 211, 211);
+        font-size: 23px;
+        /* width: 10px;
+        height: 10px; */
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+    .threeNav > li{
+        display: inline-block;
+        list-style-type:none;
+        margin-left: 2vw;
+        color: rgb(219, 211, 211);
+        font-size: 120%;
+    }
+    .threeNav{
+        width: inherit;
+        margin-top: -20px;
+        margin-left: 75%;
+
+    }
+}
