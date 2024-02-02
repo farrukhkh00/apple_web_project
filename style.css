@@ -4,24 +4,24 @@
     font-family: sans-serif;
 }
 .nav{
-    max-width: 1500px;
-    height:28px;
-    border: 1px solid black;
+    max-width: 1500px !important;
+    height:45px !important;
+    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 15px;
-    padding-left: 140px;
-    padding-right: 150px;
-    flex-wrap: wrap;
-    cursor: pointer;
+    justify-content: space-evenly !important;
+    padding-top: 15px !important;
+    padding-left: 140px !important;
+    padding-right: 150px !important;
+    flex-wrap: wrap !important;
+    cursor: pointer !important;
 }
 .nav:hover{
    /* color : rgb(223, 0, 0); */
 }
 
 .nav_child{
-color: rgb(219, 211, 211);
+color: rgb(219, 211, 211)   !important;
 font-size: 11px;
 }
 .nav_child > i{
@@ -42,14 +42,15 @@ font-size: 11px;
         display: none;
     }
 
-    .navTwo{
-        visibility: visible;
-        max-width: 100%;
-        height:45px;
-    border: 1px solid black;
+    .navTwo{ 
+        
+        visibility: visible !important;
+        max-width: 100% !important;
+        min-width: 315px !important;
+        height: 20px !important;
+    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
-    
 
     }
     .nav2Apple{
@@ -57,7 +58,7 @@ font-size: 11px;
         font-size: 23px;
         /* width: 10px;
         height: 10px; */
-        margin-top: 10px;
+        margin-top: -100px !important;
         margin-left: 13px;
     }
     .threeNav > li{
@@ -68,9 +69,312 @@ font-size: 11px;
         font-size: 120%;
     }
     .threeNav{
-        width: inherit;
-        margin-top: -20px;
-        margin-left: 75%;
+        width: inherit !important;
+        margin-top: -50px;
+        margin-left: 71%;
 
     }
+}
+
+.vision_pro{
+    max-width: 1500px !important;
+    height: 580px;
+    margin-top: -112px !important;
+    /* z-index: 1; */
+    cursor: pointer;
+}
+.vision_pro > img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width : 830px){
+    .vision_pro{
+        margin-top: -1px !important;
+        min-width: 380px;
+        height: 515px;
+    }
+}
+
+.iphonefif{
+    /* border: 1px solid black; */
+    max-width: 1500px;
+    height: 600px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.iphonefif > img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width : 830px){
+    .iphonefif{
+        min-width: 380px;
+        height: 515px;
+    }
+}
+
+.iphonefifnew{
+    /* border: 1px solid black; */
+    max-width: 1500px;
+    height: 600px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.iphonefifnew > img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width : 830px){
+    .iphonefifnew{
+        min-width: 380px;
+        height: 515px;
+    }
+}
+
+.vd_watch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.vd_watch > div{
+    max-width: 1000px;
+    height: 500px;
+}
+.vd_watch > div >img{
+    width: 660px;
+    height: 100%;
+}
+@media(max-width : 460px){
+    .vd_watch{
+        min-width: 290px;
+    }
+}
+@media(max-width : 1115px){
+    .vd_watch > div >img{
+        width: 540px;
+    }
+}
+@media(max-width : 1100px){
+    .vd_watch > div >img{
+        width: 520px;
+    }
+}
+@media(max-width : 1060px){
+    .vd_watch > div >img{
+        width: 500px;
+    }
+}
+@media(max-width : 1020px){
+    .vd_watch > div >img{
+        width: 480px;
+    }
+}
+@media(max-width : 977px){
+    .vd_watch > div >img{
+        width: 440px;
+    }
+}
+@media(max-width : 898px){
+    .vd_watch > div >img{
+        width: 400px;
+    }
+}
+@media(max-width : 820px){
+    .vd_watch > div >img{
+        width: 360px;
+    }
+}
+@media(max-width : 740px){
+    .vd_watch > div >img{
+        width: 320px;
+    }
+}
+@media(max-width : 660px){
+    .vd_watch > div >img{
+        width: 290px;
+    }
+}
+@media(max-width : 600px){
+    .vd_watch > div >img{
+        width: 270px;
+    }
+}
+
+
+.watch_macbook{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.watch_macbook > div{
+    max-width: 1000px;
+    height: 500px;
+}
+.watch_macbook > div >img{
+    width: 660px;
+    height: 100%;
+}
+@media(max-width : 460px){
+    .watch_macbook{
+        min-width: 290px;
+    }
+}
+@media(max-width : 1115px){
+    .watch_macbook > div >img{
+        width: 540px;
+    }
+}
+@media(max-width : 1100px){
+    .watch_macbook > div >img{
+        width: 520px;
+    }
+}
+@media(max-width : 1060px){
+    .watch_macbook > div >img{
+        width: 500px;
+    }
+}
+@media(max-width : 1020px){
+    .watch_macbook > div >img{
+        width: 480px;
+    }
+}
+@media(max-width : 977px){
+    .watch_macbook > div >img{
+        width: 440px;
+    }
+}
+@media(max-width : 898px){
+    .watch_macbook > div >img{
+        width: 400px;
+    }
+}
+@media(max-width : 820px){
+    .watch_macbook > div >img{
+        width: 360px;
+    }
+}
+@media(max-width : 740px){
+    .watch_macbook > div >img{
+        width: 320px;
+    }
+}
+@media(max-width : 660px){
+    .watch_macbook > div >img{
+        width: 290px;
+    }
+}
+@media(max-width : 600px){
+    .watch_macbook > div >img{
+        width: 270px;
+    }
+}
+
+
+
+.card_trade{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.card_trade > div{
+    max-width: 1000px;
+    height: 500px;
+}
+.card_trade > div >img{
+    width: 660px;
+    height: 100%;
+}
+@media(max-width : 460px){
+    .card_trade{
+        min-width: 290px;
+    }
+}
+@media(max-width : 1115px){
+    .card_trade > div >img{
+        width: 540px;
+    }
+}
+@media(max-width : 1100px){
+    .card_trade > div >img{
+        width: 520px;
+    }
+}
+@media(max-width : 1060px){
+    .card_trade > div >img{
+        width: 500px;
+    }
+}
+@media(max-width : 1020px){
+    .card_trade > div >img{
+        width: 480px;
+    }
+}
+@media(max-width : 977px){
+    .card_trade > div >img{
+        width: 440px;
+    }
+}
+@media(max-width : 898px){
+    .card_trade > div >img{
+        width: 400px;
+    }
+}
+@media(max-width : 820px){
+    .card_trade > div >img{
+        width: 360px;
+    }
+}
+@media(max-width : 740px){
+    .card_trade > div >img{
+        width: 320px;
+    }
+}
+@media(max-width : 660px){
+    .card_trade > div >img{
+        width: 290px;
+    }
+}
+@media(max-width : 600px){
+    .card_trade > div >img{
+        width: 270px;
+    }
+}
+.footone{
+    max-width: 1700px;
+    /* border: 1px solid black; */
+    height: 100%px;
+    margin-top: 10px;
+    /* text-align: center; */
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 12px;
+    font-size: 12px;
+    color:rgb(168, 164, 164);
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
+}
+.parentfoot{
+    /* border: 1px solid black; */
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* color: rgb(22, 22, 22); */
+    cursor: pointer;
 }
